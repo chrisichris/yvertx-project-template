@@ -14,12 +14,9 @@ issues to the
 Installation
 ============
 
-Your need Java7 jdk installed.
+You need Java7 jdk to be installed.
 
 Git-clone this template to your project directory 
-
-Change the license (this project-template is itself distributed under the 
-MIT license)
 
 Update the `project.yeti` file, to include the groupId arftifactId and version 
 of your project.
