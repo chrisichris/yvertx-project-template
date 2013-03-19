@@ -5,7 +5,9 @@ This is a project template for [yvertx](https://github.com/chrisichris/yvertx
 the [yeti](http://mth.github.com/yeti/) language support for 
 [vert.x](https://github.com/vert-x/vert.x).
 
-The template is based on vert.x 2.0 and yeti 0.9.7. 
+The template is based on vert.x 2.0 and yeti 0.9.7. It uses the build-tool
+[ybuilder](https://github.com/chrisichris/ybuilder), which manages the
+dependencies, packaging and and running the project's vert.x instance.
 
 Note that the template is still in development. Please help and report  
 issues to the 
