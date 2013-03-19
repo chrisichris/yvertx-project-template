@@ -1,4 +1,5 @@
 {
-	"main":"mainTest.yeti",
-	"include":"main~main~1",
+	"main":"maintest.yeti",
+	"include":"main~main~1"
 }
+
