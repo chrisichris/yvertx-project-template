@@ -1,5 +1,5 @@
 yvertx-project-template
-======
+=======================
 
 This is a project template for [yvertx](https://github.com/chrisichris/yvertx 
 the [yeti](http://mth.github.com/yeti/) language support for 
@@ -12,16 +12,20 @@ issues to the
 [vert.x-googlegroup](https://groups.google.com/forum/?fromgroups#!forum/vertx)
 
 Installation
-===========
+============
 
 Your need Java7 jdk installed.
 
-Git-clone this template to your project directory and update 
-the `project.yeti` file, to include the groupId arftifactId and version of your
-project.
+Git-clone this template to your project directory 
 
-There is no other installation required. Also not of vert.x or yeti both
-will be downloaded by the project (and for the project only)
+Change the license (this project-template is itself distributed under the 
+MIT license)
+
+Update the `project.yeti` file, to include the groupId arftifactId and version 
+of your project.
+
+That's it.  There is no other installation required. Also not of vert.x or 
+yeti both will be downloaded by the project (and for the project only)
 
 Usage
 =====
