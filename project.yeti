@@ -1,0 +1,39 @@
+
+/**
+ * build file for yvertx - run with java -jar ybuilder.jar
+ */
+
+
+load ybuilder.core.build;
+load ybuilder.core.base;
+load ybuilder.core.vertxbase;
+
+//TODO: update groupId artifactId and version
+config = baseConfig "groupid" "artifacId" "0.1-SNAPSHOT";
+config.description := "project descripton";
+
+
+config = createBaseConfig config [
+    remoteRepository "sonatype-nexus-snapshots" 
+        "https://oss.sonatype.org/content/repositories/snapshots",
+
+    dependency "io.vertx" "vertx-core" "2.0.0-SNAPSHOT"
+        [ProvidedScope ()],
+    dependency "io.vertx" "vertx-platform" "2.0.0-SNAPSHOT"
+        [ProvidedScope ()],
+    dependency "com.github.chrisichris" "yvertx-module" "0.9.8-SNAPSHOT"
+        [ProvidedScope()],
+    
+    //add other dependencies here
+    //ie: dependency "commons-lang" "commons-lang" "2.6" [],
+
+];
+
+config = config with createVertxConfig config;
+
+//register targets
+config = config with registerBaseTargets config;
+config = config with registerVertxTargets config;
+
+
+run config;

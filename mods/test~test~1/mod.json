@@ -1,0 +1,4 @@
+{
+	"main":"mainTest.yeti",
+	"include":"main~main~1",
+}
