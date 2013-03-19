@@ -21,8 +21,6 @@ config = createBaseConfig config [
         [ProvidedScope ()],
     dependency "io.vertx" "vertx-platform" "2.0.0-SNAPSHOT"
         [ProvidedScope ()],
-    dependency "com.github.chrisichris" "yvertx-module" "0.9.8-SNAPSHOT"
-        [ProvidedScope()],
     
     //add other dependencies here
     //ie: dependency "commons-lang" "commons-lang" "2.6" [],
